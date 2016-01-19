@@ -8,9 +8,9 @@ body {
 
 .icms--banner {
   background: #ffe155;
-  padding: 20px 0;
-  color: #5b4e1a;
-  font-family: 'San Francisco', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  padding: 5px 0;
+  color: #5b4e1a !important;
+  font-family: "San Francisco", "Helvetica Neue", "Helvetica", Arial, sans-serif !important;
   border-bottom:1px solid #e8bf1d;
 }
 
@@ -51,7 +51,7 @@ body {
   padding:7px 20px;
   text-align:center;
   color:#fff;
-  text-decoration:none;
+  text-decoration:none !important;
   font-weight:bold;
 }
 
@@ -65,17 +65,36 @@ body {
   font-weight:normal;
 }
 
+.icms--banner__cancel{
+  display: block;
+  min-width:200px;
+  position:absolute;
+  top: 50%;
+  right:15px;
+  margin-top:30px;
+  color: #111;
+  font-size: 12px;
+  text-align:center;
+}
+
 @media (max-width: 600px) {
   .icms--banner__container {
-    padding:0 20px;
+    padding:20px 20px 0;
+    text-align:center;
   }
 
-  .icms--banner__container a {
+  .icms--banner__container a,
+  .icms--banner__cancel{
     position: relative;
     top:auto;
     right:auto;
     margin-top: 20px;
   }
+
+  .icms--banner__cancel {
+    padding:0 0 10px;
+  }
+
   .icms--banner__container img {
     display:none;
   }

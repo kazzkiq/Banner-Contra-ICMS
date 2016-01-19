@@ -2,9 +2,11 @@ if(localStorage.getItem('ICMS_BANNER') != 'disabled') {
     var ICMS_BANNER = document.createElement('div');
     var ICMS_STYLE = document.createElement('style');
 
-    var ICMS_HTML = // HTML aqui;
-    var ICMS_CSS = // CSS aqui
+    ICMS_BANNER.id = 'icms--banner';
 
+    var ICMS_HTML = // HTML AQUI
+    var ICMS_CSS = // CSS AQUI
+    
     ICMS_BANNER.innerHTML = ICMS_HTML;
     ICMS_STYLE.innerHTML = ICMS_CSS;
 
@@ -13,5 +15,6 @@ if(localStorage.getItem('ICMS_BANNER') != 'disabled') {
 }
 
 function cancelICMS_BANNER() {
+	document.getElementById('icms--banner').style.display = 'none';
     localStorage.setItem('ICMS_BANNER', 'disabled');
 }
