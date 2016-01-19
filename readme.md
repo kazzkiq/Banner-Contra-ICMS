@@ -1,5 +1,6 @@
 # Banner Contra ICMS
 
+![Banner Contra ICMS](readme-img.jpg)
 
 ## Como Utilizar
 
