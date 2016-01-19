@@ -4,10 +4,10 @@
 
 ## Como Utilizar
 
-Copie um dos códigos abaixo e cole na página da sua loja virtual ou site.
+Copie o código abaixo e cole na página da sua loja virtual ou site.
 
 ```html
-<script async src="https://raw.githubusercontent.com/kazzkiq/Banner-Contra-ICMS/master/icms-banner.js"></script>
+<script async src="https://cdn.rawgit.com/kazzkiq/Banner-Contra-ICMS/master/icms-banner.js"></script>
 ```
 
 O código criará um banner responsivo no topo da sua página como na imagem acima.
