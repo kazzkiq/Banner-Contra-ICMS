@@ -1,0 +1,82 @@
+body {
+  margin:0;
+}
+
+.icms--banner, .icms--banner * {
+  box-sizing: border-box;
+}
+
+.icms--banner {
+  background: #ffe155;
+  padding: 20px 0;
+  color: #5b4e1a;
+  font-family: 'San Francisco', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  border-bottom:1px solid #e8bf1d;
+}
+
+.icms--banner__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding:20px 250px 20px 100px;
+  position:relative;
+}
+
+.icms--banner__container img {
+  width: 75px;
+  position:absolute;
+  left:15px;
+  top:50%;
+  margin-top:-37px;
+}
+
+.icms--banner__container h2 {
+  font-size: 20px;
+  margin:0 0 10px 0;
+}
+
+.icms--banner__container p {
+  font-size:14px;
+  margin:0;
+}
+
+.icms--banner__container a {
+  position:absolute;
+  right:15px;
+  top:50%;
+  margin-top:-20px;
+  display:block;
+  font-size:13px;
+  background:#000;
+  border-radius:5px;
+  padding:7px 20px;
+  text-align:center;
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.icms--banner__container a:hover {
+  background: #555;
+}
+
+.icms--banner__container a small{
+  font-size:12px;
+  display:block;
+  font-weight:normal;
+}
+
+@media (max-width: 600px) {
+  .icms--banner__container {
+    padding:0 20px;
+  }
+
+  .icms--banner__container a {
+    position: relative;
+    top:auto;
+    right:auto;
+    margin-top: 20px;
+  }
+  .icms--banner__container img {
+    display:none;
+  }
+}
